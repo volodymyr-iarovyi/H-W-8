@@ -1,3 +1,19 @@
-h3 :nth-of-type(1) {
+#greycol {
+    color: grey;
+}
+
+h3:nth-child(1) {
     color: pink;
+}
+
+div>div p {
+    color: red;
+}
+
+p:nth-child(7) {
+    color: green;
+}
+
+p:nth-child(8) {
+    color: yellow;
 }
